@@ -276,13 +276,16 @@ export default function HomePage({ onOpenTrial, onOpenDemo }) {
           </div>
         </div>
 
-        {/* Feature Icon Row Section below the hero text */}
-        <div className="max-w-[1440px] w-full mx-auto px-4 sm:px-6 lg:px-8 relative z-10 pt-8">
+      </section>
+
+      {/* 1.5. FEATURE ICONS BAR SECTION (Positioned cleanly below hero background) */}
+      <section className="relative z-20 bg-white border-y border-slate-200/80 py-6 lg:py-8 shadow-xs">
+        <div className="max-w-[1440px] w-full mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
             {featuresIconRow.map((item, idx) => {
               const IconComp = item.icon;
               return (
-                <div key={idx} className="flex flex-col items-center gap-2 p-3 rounded-2xl bg-white/90 backdrop-blur-md border border-slate-200/80 shadow-xs hover:border-blue-300 hover:shadow-md hover:bg-white transition text-center">
+                <div key={idx} className="flex flex-col items-center gap-2.5 p-3.5 rounded-2xl bg-slate-50/90 border border-slate-200/80 shadow-xs hover:border-blue-400 hover:shadow-md hover:bg-white transition text-center">
                   <div className={`w-10 h-10 rounded-xl ${item.bgColor} ${item.iconColor} flex items-center justify-center shadow-xs`}>
                     <IconComp className="w-5 h-5" />
                   </div>
@@ -294,7 +297,6 @@ export default function HomePage({ onOpenTrial, onOpenDemo }) {
             })}
           </div>
         </div>
-
       </section>
 
       {/* 2. SECTION: FEATURES */}
