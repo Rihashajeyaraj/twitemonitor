@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { Monitor, Eye, ChevronDown, Menu, X, ArrowRight } from 'lucide-react';
+import { Monitor, Eye, ChevronDown, Menu, X, ArrowRight, ArrowUpRight } from 'lucide-react';
 
 export default function Header({ onOpenTrial }) {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -143,8 +143,30 @@ export default function Header({ onOpenTrial }) {
             })}
           </nav>
 
+          {/* Right Action Button: Contact Us */}
+          <div className="hidden lg:flex items-center gap-3">
+            <a
+              href="https://twite.ai/contact-us/"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-[#cfa138] hover:bg-[#b0821e] text-white font-bold text-xs shadow-xs transition transform hover:-translate-y-0.5"
+            >
+              <span>Contact Us</span>
+              <ArrowUpRight className="w-3.5 h-3.5" />
+            </a>
+          </div>
+
           {/* Mobile Menu Trigger */}
           <div className="lg:hidden flex items-center gap-2">
+            <a
+              href="https://twite.ai/contact-us/"
+              target="_blank"
+              rel="noreferrer"
+              className="px-3 py-1.5 rounded-lg bg-[#cfa138] text-white font-bold text-xs flex items-center gap-1"
+            >
+              <span>Contact Us</span>
+              <ArrowUpRight className="w-3 h-3" />
+            </a>
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="p-2 rounded-xl text-slate-700 hover:bg-slate-100 focus:outline-none"
@@ -168,6 +190,17 @@ export default function Header({ onOpenTrial }) {
               {link.name}
             </button>
           ))}
+          <div className="pt-2">
+            <a
+              href="https://twite.ai/contact-us/"
+              target="_blank"
+              rel="noreferrer"
+              className="w-full py-2.5 rounded-xl bg-[#cfa138] hover:bg-[#b0821e] text-white font-bold text-xs shadow-xs transition flex items-center justify-center gap-1.5"
+            >
+              <span>Contact Us</span>
+              <ArrowUpRight className="w-3.5 h-3.5" />
+            </a>
+          </div>
         </div>
       )}
     </header>
