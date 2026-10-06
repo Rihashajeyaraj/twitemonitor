@@ -202,7 +202,7 @@ export default function HomePage({ onOpenTrial, onOpenDemo }) {
   const steps = [
     { num: "01", title: "Create Your Organization", desc: "Sign up for a free trial in 30 seconds. Name your company workspace and set up admin credentials.", icon: Building2 },
     { num: "02", title: "Add Employees & Teams", desc: "Import employee emails or upload CSV. Assign department roles (Engineering, Sales, QA, HR).", icon: UserPlus },
-    { num: "03", title: "Install TwiteMonitor Agent", desc: "Deploy our lightweight 12 MB background monitoring agent via silent installer or direct link.", icon: Download },
+    { num: "03", title: "Install TwiteMonitor Agent", desc: "Deploy our lightweight background monitoring agent via silent installer or direct link.", icon: Download },
     { num: "04", title: "Start Automatic Monitoring", desc: "The agent boots automatically on startup, tracking working hours, apps, sites, and screenshots.", icon: Play },
     { num: "05", title: "View Real-Time Insights", desc: "Access your cloud dashboard to view live productivity scores, app usage distributions, and attendance logs.", icon: BarChart3 },
     { num: "06", title: "Take Action & Optimize", desc: "Identify distraction bottlenecks, reward top performers, export timesheets, and enforce security.", icon: Zap }

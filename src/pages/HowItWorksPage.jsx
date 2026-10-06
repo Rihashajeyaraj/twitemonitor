@@ -23,7 +23,7 @@ export default function HowItWorksPage({ onOpenTrial }) {
     {
       num: "03",
       title: "Install TwiteMonitor Agent",
-      desc: "Deploy our lightweight 12 MB background monitoring agent on employee Windows/Mac desktops via silent installer or direct download link.",
+      desc: "Deploy our lightweight background monitoring agent on employee Windows/Mac desktops via silent installer or direct download link.",
       icon: Download,
       color: "bg-purple-600 text-white"
     },
