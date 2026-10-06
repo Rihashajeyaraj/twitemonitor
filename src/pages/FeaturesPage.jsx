@@ -170,25 +170,10 @@ export default function FeaturesPage({ onOpenTrial }) {
                   </div>
 
                   {/* Card Body */}
-                  <div className="p-6 space-y-3">
-                    <h3 className="text-xl font-bold text-slate-900 group-hover:text-blue-600 transition">
+                  <div className="p-5 text-center">
+                    <h3 className="text-lg font-bold text-slate-900 group-hover:text-blue-600 transition">
                       {item.title}
                     </h3>
-
-                    <p className="text-xs text-slate-600 leading-relaxed">
-                      {item.desc}
-                    </p>
-
-                    {/* Pain Point Solved Highlight */}
-                    <div className="p-3.5 rounded-xl bg-blue-50/70 border border-blue-100 space-y-1">
-                      <div className="text-[10px] font-bold text-blue-700 uppercase tracking-wider flex items-center gap-1">
-                        <CheckCircle2 className="w-3.5 h-3.5 text-blue-600" />
-                        <span>Pain Point Solved</span>
-                      </div>
-                      <p className="text-[11px] text-slate-700 font-medium leading-snug">
-                        {item.painPoint}
-                      </p>
-                    </div>
                   </div>
                 </div>
               </div>
