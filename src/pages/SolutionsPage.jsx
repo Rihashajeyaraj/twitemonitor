@@ -118,15 +118,6 @@ export default function SolutionsPage({ onOpenTrial }) {
                   </div>
                 </div>
 
-                <div className="p-6 pt-0">
-                  <button 
-                    onClick={onOpenTrial}
-                    className="w-full py-2.5 rounded-xl border border-slate-200 hover:border-blue-600 text-slate-700 hover:text-blue-600 font-bold text-xs transition flex items-center justify-center gap-2"
-                  >
-                    <span>Start Solution Free Trial</span>
-                    <ArrowRight className="w-4 h-4" />
-                  </button>
-                </div>
               </div>
             );
           })}
