@@ -240,16 +240,19 @@ export default function HomePage({ onOpenTrial, onOpenDemo }) {
       >
         {/* Full-width 4K Razor-Sharp Hero Image */}
         <div className="absolute inset-0 w-full h-full pointer-events-none select-none overflow-hidden">
-          <img 
-            src="/hero-hd.webp" 
-            alt="TwiteMonitor SaaS Hero Background - Dashboard & Mobile App" 
-            className="w-full h-full object-cover object-right-top md:object-right transition-all duration-300"
-            style={{ imageRendering: "crisp-edges" }}
-          />
+          <picture>
+            <source srcSet="/hero-hd.webp" type="image/webp" />
+            <img 
+              src="/hero-hd.png" 
+              alt="TwiteMonitor SaaS Hero Background - Dashboard & Mobile App" 
+              className="w-full h-full object-cover object-right-top md:object-right transition-all duration-300 filter contrast-[1.05] saturate-[1.03] brightness-[1.01]"
+              style={{ imageRendering: "-webkit-optimize-contrast" }}
+            />
+          </picture>
         </div>
 
-        {/* Left Text Readability Overlay: Soft white gradient strictly covering ONLY the left 40% text area. 0% overlay on the laptop/phone on the right! */}
-        <div className="absolute inset-y-0 left-0 w-full md:w-[50%] lg:w-[42%] bg-gradient-to-r from-white via-white/80 to-transparent pointer-events-none" />
+        {/* Left Text Readability Overlay: Soft white gradient strictly covering ONLY the left 38% text area. 0% overlay on the laptop/phone on the right! */}
+        <div className="absolute inset-y-0 left-0 w-full md:w-[48%] lg:w-[38%] bg-gradient-to-r from-white via-white/75 to-transparent pointer-events-none" />
 
         <div className="max-w-[1440px] w-full mx-auto px-4 sm:px-6 lg:px-8 relative z-10 my-auto">
           <div className="max-w-md sm:max-w-lg lg:max-w-[510px] text-left space-y-6">

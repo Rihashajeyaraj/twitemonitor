@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Monitor, Globe, Laptop, Mail, Phone } from 'lucide-react';
+import { Monitor, Globe, Laptop, Mail, Phone, ArrowUpRight } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -98,7 +98,12 @@ export default function Footer() {
           {/* Column 4: CONTACT US */}
           <div className="md:col-span-3 text-left space-y-3">
             <div>
-              <h4 className="text-[#3d3629] font-extrabold text-xs uppercase tracking-wider">CONTACT US</h4>
+              <a href="https://twite.ai/contact-us/" target="_blank" rel="noreferrer" className="inline-block hover:opacity-80 transition">
+                <h4 className="text-[#3d3629] font-extrabold text-xs uppercase tracking-wider flex items-center gap-1.5">
+                  <span>CONTACT US</span>
+                  <ArrowUpRight className="w-3.5 h-3.5 text-[#ba9132]" />
+                </h4>
+              </a>
               <div className="w-12 h-[2px] bg-[#cfa138] mt-1.5" />
             </div>
             <ul className="space-y-2.5 pt-2 text-[#70644e] font-semibold text-xs">
@@ -112,6 +117,17 @@ export default function Footer() {
                 <a href="tel:+919884298443" className="flex items-center gap-2 hover:text-[#b0821e] transition">
                   <Phone className="w-4 h-4 text-[#ba9132]" />
                   <span>+91 98842 98443</span>
+                </a>
+              </li>
+              <li className="pt-2">
+                <a 
+                  href="https://twite.ai/contact-us/" 
+                  target="_blank" 
+                  rel="noreferrer" 
+                  className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-[#cfa138] hover:bg-[#b0821e] text-white font-bold text-xs shadow-xs transition transform hover:-translate-y-0.5"
+                >
+                  <span>Contact Us</span>
+                  <ArrowUpRight className="w-3.5 h-3.5" />
                 </a>
               </li>
             </ul>
