@@ -149,7 +149,7 @@ export default function Header({ onOpenTrial }) {
               href="https://twite.ai/contact-us/"
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-[#cfa138] hover:bg-[#b0821e] text-white font-bold text-xs shadow-xs transition transform hover:-translate-y-0.5"
+              className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 hover:from-blue-700 hover:via-indigo-700 hover:to-purple-700 text-white font-bold text-xs shadow-md shadow-blue-600/20 hover:shadow-blue-600/35 transition transform hover:-translate-y-0.5 active:translate-y-0"
             >
               <span>Contact Us</span>
               <ArrowUpRight className="w-3.5 h-3.5" />
@@ -162,7 +162,7 @@ export default function Header({ onOpenTrial }) {
               href="https://twite.ai/contact-us/"
               target="_blank"
               rel="noreferrer"
-              className="px-3 py-1.5 rounded-lg bg-[#cfa138] text-white font-bold text-xs flex items-center gap-1"
+              className="px-3.5 py-1.5 rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold text-xs flex items-center gap-1 shadow-sm"
             >
               <span>Contact Us</span>
               <ArrowUpRight className="w-3 h-3" />
@@ -195,7 +195,7 @@ export default function Header({ onOpenTrial }) {
               href="https://twite.ai/contact-us/"
               target="_blank"
               rel="noreferrer"
-              className="w-full py-2.5 rounded-xl bg-[#cfa138] hover:bg-[#b0821e] text-white font-bold text-xs shadow-xs transition flex items-center justify-center gap-1.5"
+              className="w-full py-2.5 rounded-xl bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-bold text-xs shadow-md transition flex items-center justify-center gap-1.5"
             >
               <span>Contact Us</span>
               <ArrowUpRight className="w-3.5 h-3.5" />
