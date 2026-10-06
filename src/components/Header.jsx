@@ -48,7 +48,7 @@ export default function Header({ onOpenTrial }) {
       ]
     },
     { name: 'How It Works', sectionId: 'how-it-works', path: '/how-it-works' },
-    { name: 'Pricing', sectionId: 'pricing', path: '/pricing', badge: 'From ₹99' },
+    { name: 'Pricing', sectionId: 'pricing', path: '/pricing', badge: 'From ₹499' },
   ];
 
   const handleNavClick = (link) => {

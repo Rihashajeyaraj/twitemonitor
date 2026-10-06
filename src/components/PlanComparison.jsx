@@ -137,13 +137,13 @@ export default function PlanComparison({ onOpenTrial, onOpenEnterprise }) {
           {/* Pricing Cards Horizontal Row */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             
-            {/* Starter ₹99 */}
+            {/* Starter ₹499 */}
             <div className="p-6 rounded-2xl bg-gray-900/60 border border-gray-800 hover:border-gray-700 transition flex flex-col justify-between space-y-4">
               <div>
                 <h3 className="text-lg font-bold text-white">{PLAN_PRICING.starter.name}</h3>
                 <p className="text-xs text-gray-400 mt-1">{PLAN_PRICING.starter.description}</p>
                 <div className="mt-4 flex items-baseline gap-1">
-                  <span className="text-3xl font-extrabold text-white">₹{billingCycle === 'yearly' ? 79 : 99}</span>
+                  <span className="text-3xl font-extrabold text-white">₹{billingCycle === 'yearly' ? 399 : 499}</span>
                   <span className="text-xs text-gray-400">/ user / mo</span>
                 </div>
                 <div className="text-[11px] text-indigo-400 mt-1 font-semibold">
@@ -158,7 +158,7 @@ export default function PlanComparison({ onOpenTrial, onOpenEnterprise }) {
               </button>
             </div>
 
-            {/* Professional ₹199 (MOST POPULAR) */}
+            {/* Professional ₹990 (MOST POPULAR) */}
             <div className="relative p-6 rounded-2xl bg-gradient-to-b from-indigo-950/60 via-gray-900/90 to-gray-950 border-2 border-indigo-500/80 shadow-2xl shadow-indigo-950/50 flex flex-col justify-between space-y-4 glow-purple">
               <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 px-3 py-1 rounded-full bg-gradient-to-r from-blue-500 via-indigo-500 to-fuchsia-500 text-white font-extrabold text-[10px] tracking-wider uppercase shadow-md">
                 {PLAN_PRICING.professional.badge}
@@ -167,7 +167,7 @@ export default function PlanComparison({ onOpenTrial, onOpenEnterprise }) {
                 <h3 className="text-lg font-bold text-white">{PLAN_PRICING.professional.name}</h3>
                 <p className="text-xs text-gray-300 mt-1">{PLAN_PRICING.professional.description}</p>
                 <div className="mt-4 flex items-baseline gap-1">
-                  <span className="text-4xl font-extrabold text-white">₹{billingCycle === 'yearly' ? 159 : 199}</span>
+                  <span className="text-4xl font-extrabold text-white">₹{billingCycle === 'yearly' ? 790 : 990}</span>
                   <span className="text-xs text-gray-400">/ user / mo</span>
                 </div>
                 <div className="text-[11px] text-emerald-400 mt-1 font-semibold">
@@ -237,10 +237,10 @@ export default function PlanComparison({ onOpenTrial, onOpenEnterprise }) {
               <span>FEATURE SPECIFICATION</span>
             </div>
             <div className="col-span-2 text-center text-gray-200">
-              Starter <span className="hidden sm:inline text-[10px] text-indigo-400 block font-normal">₹99/mo</span>
+              Starter <span className="hidden sm:inline text-[10px] text-indigo-400 block font-normal">₹499/mo</span>
             </div>
             <div className="col-span-2 text-center text-indigo-300 font-extrabold">
-              Professional <span className="hidden sm:inline text-[10px] text-emerald-400 block font-normal">₹199/mo</span>
+              Professional <span className="hidden sm:inline text-[10px] text-emerald-400 block font-normal">₹990/mo</span>
             </div>
             <div className="col-span-2 text-center text-gray-200">
               Enterprise <span className="hidden sm:inline text-[10px] text-gray-400 block font-normal">Custom</span>

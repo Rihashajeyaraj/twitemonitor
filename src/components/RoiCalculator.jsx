@@ -10,7 +10,7 @@ export default function RoiCalculator({ onOpenTrial }) {
   const monthlyWorkDays = 22;
   const hoursRecoveredPerMonth = teamSize * wastedHoursPerDay * 0.7 * monthlyWorkDays; // 70% efficiency recovery
   const monthlyGrossSavings = Math.round(hoursRecoveredPerMonth * avgHourlyRate);
-  const twiteMonitorCost = teamSize * 199; // Professional plan cost
+  const twiteMonitorCost = teamSize * 990; // Professional plan cost
   const netMonthlySavings = monthlyGrossSavings - twiteMonitorCost;
   const roiMultiplier = (monthlyGrossSavings / twiteMonitorCost).toFixed(1);
 
@@ -105,7 +105,7 @@ export default function RoiCalculator({ onOpenTrial }) {
               </div>
 
               <div className="p-3 rounded-xl bg-gray-900/80 border border-gray-800 text-[11px] text-gray-400">
-                ⚡ Based on Professional plan at ₹199/user/month. Assumes recovering 70% of lost hours through focus insights.
+                ⚡ Based on Professional plan at ₹990/user/month. Assumes recovering 70% of lost hours through focus insights.
               </div>
 
             </div>

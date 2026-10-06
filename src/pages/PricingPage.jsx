@@ -122,7 +122,7 @@ export default function PricingPage({ onOpenTrial }) {
 
                 <div className="text-center pt-2">
                   <div className="flex items-baseline justify-center gap-1">
-                    <span className="text-4xl sm:text-5xl font-extrabold text-slate-900">₹{billingCycle === 'yearly' ? 79 : 99}</span>
+                    <span className="text-4xl sm:text-5xl font-extrabold text-slate-900">₹{billingCycle === 'yearly' ? 399 : 499}</span>
                     <span className="text-xs text-slate-500 font-semibold">/user/month</span>
                   </div>
                   <div className="text-[11px] text-blue-600 font-bold mt-1">
@@ -175,7 +175,7 @@ export default function PricingPage({ onOpenTrial }) {
 
                 <div className="text-center pt-2">
                   <div className="flex items-baseline justify-center gap-1">
-                    <span className="text-4xl sm:text-5xl font-black text-white">₹{billingCycle === 'yearly' ? 159 : 199}</span>
+                    <span className="text-4xl sm:text-5xl font-black text-white">₹{billingCycle === 'yearly' ? 790 : 990}</span>
                     <span className="text-xs text-amber-200 font-bold">/user/month</span>
                   </div>
                   <div className="text-[11px] text-amber-100 font-bold mt-1">
@@ -278,14 +278,14 @@ export default function PricingPage({ onOpenTrial }) {
           <div className="p-4 sm:p-5 bg-slate-900 text-white font-bold text-base tracking-wide flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
             <div>
               <span className="text-lg font-extrabold">TwiteMonitor — Plan Comparison</span>
-              <p className="text-xs text-slate-400 font-normal mt-0.5">Detailed feature breakdown across Starter ₹99, Professional ₹199 and Enterprise</p>
+              <p className="text-xs text-slate-400 font-normal mt-0.5">Detailed feature breakdown across Starter ₹499, Professional ₹990 and Enterprise</p>
             </div>
           </div>
 
           <div className="p-4 bg-slate-100 border-b border-slate-200 grid grid-cols-12 font-extrabold text-xs text-slate-800 uppercase tracking-wider">
             <div className="col-span-6 sm:col-span-5">Feature</div>
-            <div className="col-span-2 text-center">Starter ₹99</div>
-            <div className="col-span-2 text-center text-blue-600 font-extrabold bg-blue-100/60 py-1 rounded-md">Professional ₹199</div>
+            <div className="col-span-2 text-center">Starter ₹499</div>
+            <div className="col-span-2 text-center text-blue-600 font-extrabold bg-blue-100/60 py-1 rounded-md">Professional ₹990</div>
             <div className="col-span-2 text-center">Enterprise</div>
           </div>
 

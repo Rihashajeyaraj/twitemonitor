@@ -105,7 +105,7 @@ export default function Navbar({ onOpenTrial, onOpenDemo, scrollToSection }) {
             >
               Pricing
               <span className="px-1.5 py-0.5 text-[10px] font-bold tracking-wide uppercase rounded-full bg-gradient-to-r from-emerald-500 to-teal-500 text-white">
-                ₹99/mo
+                ₹499/mo
               </span>
             </button>
             <button 
@@ -149,7 +149,7 @@ export default function Navbar({ onOpenTrial, onOpenDemo, scrollToSection }) {
             className="block w-full text-left py-2 text-gray-200 hover:text-white font-medium flex items-center justify-between"
           >
             <span>Pricing Plans</span>
-            <span className="px-2 py-0.5 text-xs bg-indigo-500/20 text-indigo-300 rounded-full font-bold">From ₹99</span>
+            <span className="px-2 py-0.5 text-xs bg-indigo-500/20 text-indigo-300 rounded-full font-bold">From ₹499</span>
           </button>
           <button 
             onClick={() => { scrollToSection('auto-tamper'); setMobileMenuOpen(false); }}

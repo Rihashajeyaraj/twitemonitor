@@ -2,8 +2,8 @@
 export const PLAN_PRICING = {
   starter: {
     name: "Starter",
-    priceMonthly: 99,
-    priceYearly: 79, // 20% discount
+    priceMonthly: 499,
+    priceYearly: 399, // 20% discount
     currency: "₹",
     period: "per employee / month",
     description: "Essential attendance & activity tracking for small teams.",
@@ -13,8 +13,8 @@ export const PLAN_PRICING = {
   },
   professional: {
     name: "Professional",
-    priceMonthly: 199,
-    priceYearly: 159, // 20% discount
+    priceMonthly: 990,
+    priceYearly: 790, // 20% discount
     currency: "₹",
     period: "per employee / month",
     description: "Complete productivity, screen monitoring & auto-tampering suite.",
@@ -377,7 +377,7 @@ export const FAQS = [
   },
   {
     q: "What is the difference between Starter, Professional, and Enterprise plans?",
-    a: "The Starter plan (₹99/mo) covers core attendance, working hours, application tracking, and basic reporting. The Professional plan (₹199/mo) adds full Website Monitoring, Periodic Screenshots, Screenshot History, Advanced Alerts, and Auto-Tampering Protection. The Enterprise plan includes custom retention, dedicated support, custom integrations, and SLA guarantees."
+    a: "The Starter plan (₹499/mo) covers core attendance, working hours, application tracking, and basic reporting. The Professional plan (₹990/mo) adds full Website Monitoring, Periodic Screenshots, Screenshot History, Advanced Alerts, and Auto-Tampering Protection. The Enterprise plan includes custom retention, dedicated support, custom integrations, and SLA guarantees."
   },
   {
     q: "Can I try TwiteMonitor for free before subscribing?",
