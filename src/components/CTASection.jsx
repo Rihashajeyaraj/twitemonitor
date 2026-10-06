@@ -35,7 +35,7 @@ export default function CTASection({ onOpenTrial }) {
                 onClick={onOpenTrial}
                 className="w-full sm:w-auto px-8 py-4 rounded-2xl gradient-bg-primary text-white font-extrabold text-base shadow-xl shadow-blue-600/30 hover:scale-[1.02] active:scale-95 transition flex items-center justify-center gap-2"
               >
-                <span>Start 14-Day Free Trial</span>
+                <span>Start Free Trial</span>
                 <ArrowRight className="w-5 h-5" />
               </button>
 
@@ -48,7 +48,7 @@ export default function CTASection({ onOpenTrial }) {
             </div>
 
             <div className="pt-6 flex flex-wrap items-center justify-center gap-6 text-xs text-slate-300 font-medium">
-              <span className="flex items-center gap-1.5"><CheckCircle2 className="w-4 h-4 text-emerald-400" /> 14-Day Free Trial</span>
+              <span className="flex items-center gap-1.5"><CheckCircle2 className="w-4 h-4 text-emerald-400" /> Free Trial Available</span>
               <span className="flex items-center gap-1.5"><CheckCircle2 className="w-4 h-4 text-emerald-400" /> No Credit Card Required</span>
               <span className="flex items-center gap-1.5"><CheckCircle2 className="w-4 h-4 text-emerald-400" /> 3-Minute Agent Setup</span>
             </div>

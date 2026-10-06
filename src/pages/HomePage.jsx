@@ -635,9 +635,6 @@ export default function HomePage({ onOpenTrial, onOpenDemo }) {
                 <span className="text-lg font-extrabold">TwiteMonitor — Plan Comparison</span>
                 <p className="text-xs text-slate-400 font-normal mt-0.5">Detailed feature breakdown across Starter ₹99, Professional ₹199 and Enterprise</p>
               </div>
-              <span className="px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 border border-blue-500/30 text-xs font-semibold">
-                All plans include free trial
-              </span>
             </div>
 
             <div className="p-4 bg-slate-100 border-b border-slate-200 grid grid-cols-12 font-extrabold text-xs text-slate-800 uppercase tracking-wider">

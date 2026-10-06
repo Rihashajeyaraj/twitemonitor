@@ -32,7 +32,7 @@ export default function CtaBanner({ onOpenTrial, onOpenDemo }) {
                 onClick={onOpenTrial}
                 className="w-full sm:w-auto px-8 py-4 rounded-2xl bg-gradient-to-r from-blue-500 via-indigo-500 to-fuchsia-500 text-white font-extrabold text-base shadow-xl shadow-indigo-500/30 hover:scale-[1.03] transition flex items-center justify-center gap-2"
               >
-                <span>Start 14-Day Free Trial</span>
+                <span>Start Free Trial</span>
                 <ArrowRight className="w-5 h-5" />
               </button>
 
