@@ -230,7 +230,7 @@ export default function PricingPage({ onOpenTrial }) {
 
                 <div className="text-center pt-2">
                   <div className="flex items-baseline justify-center gap-1">
-                    <span className="text-4xl sm:text-5xl font-extrabold text-slate-900">Custom</span>
+                    <span className="text-2xl sm:text-3xl font-extrabold text-slate-900">Custom</span>
                   </div>
                   <div className="text-[11px] text-slate-500 font-semibold mt-1">
                     Tailored SLAs & Volume Discounts
