@@ -281,7 +281,7 @@ export default function PricingPage({ onOpenTrial }) {
               <p className="text-xs text-slate-400 font-normal mt-0.5">Detailed feature breakdown across Starter ₹99, Professional ₹199 and Enterprise</p>
             </div>
             <span className="px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 border border-blue-500/30 text-xs font-semibold">
-              All plans include 14-day trial
+              All plans include free trial
             </span>
           </div>
 

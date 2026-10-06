@@ -325,7 +325,7 @@ export default function PlanComparison({ onOpenTrial, onOpenEnterprise }) {
           <div className="p-6 bg-gray-900/80 border-t border-gray-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
             <div className="flex items-center gap-2 text-gray-300">
               <ShieldCheck className="w-4 h-4 text-emerald-400" />
-              <span>All plans include a 14-day free trial. No credit card required.</span>
+              <span>All plans include a free trial. No credit card required.</span>
             </div>
 
             <div className="flex items-center gap-3">

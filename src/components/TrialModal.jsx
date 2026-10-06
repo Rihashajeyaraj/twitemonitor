@@ -45,7 +45,7 @@ export default function TrialModal({ isOpen, onClose }) {
             <div className="text-center space-y-2 mb-6">
               <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/30 text-indigo-300 text-xs font-bold">
                 <Sparkles className="w-3.5 h-3.5" />
-                <span>14-DAY FULL FEATURE FREE TRIAL</span>
+                <span>FULL FEATURE FREE TRIAL</span>
               </div>
               <h3 className="text-xl font-bold text-white">Start Monitoring in 3 Minutes</h3>
               <p className="text-xs text-gray-400">No credit card required. Full access to Professional plan features.</p>
@@ -120,7 +120,7 @@ export default function TrialModal({ isOpen, onClose }) {
 
               <div className="flex items-center justify-center gap-2 text-[10px] text-gray-400 pt-2">
                 <Lock className="w-3 h-3 text-emerald-400" />
-                <span>Instant 14-day access • Instant desktop agent download</span>
+                <span>Instant trial access • Instant desktop agent download</span>
               </div>
             </form>
           </div>

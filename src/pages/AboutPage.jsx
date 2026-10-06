@@ -101,12 +101,12 @@ export default function AboutPage({ onOpenTrial }) {
         {/* CTA Banner */}
         <div className="p-8 rounded-3xl gradient-bg-primary text-white text-center max-w-3xl mx-auto space-y-4 shadow-xl">
           <h3 className="text-2xl font-bold">Join 500+ Companies Monitoring Smarter</h3>
-          <p className="text-slate-100 text-sm">Start your 14-day free trial on Professional plan today.</p>
+          <p className="text-slate-100 text-sm">Start your free trial on Professional plan today.</p>
           <button
             onClick={onOpenTrial}
             className="px-8 py-3.5 rounded-xl bg-white text-blue-600 font-extrabold text-sm shadow-md hover:scale-105 transition"
           >
-            Start 14-Day Free Trial
+            Start Free Trial
           </button>
         </div>
 

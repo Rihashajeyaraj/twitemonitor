@@ -9,7 +9,7 @@ export const PLAN_PRICING = {
     description: "Essential attendance & activity tracking for small teams.",
     badge: null,
     highlight: false,
-    cta: "Start 14-Day Free Trial",
+    cta: "Start Free Trial",
   },
   professional: {
     name: "Professional",
@@ -20,7 +20,7 @@ export const PLAN_PRICING = {
     description: "Complete productivity, screen monitoring & auto-tampering suite.",
     badge: "MOST POPULAR",
     highlight: true,
-    cta: "Start 14-Day Free Trial",
+    cta: "Start Free Trial",
   },
   enterprise: {
     name: "Enterprise",
@@ -381,6 +381,6 @@ export const FAQS = [
   },
   {
     q: "Can I try TwiteMonitor for free before subscribing?",
-    a: "Yes! We offer a full-featured 14-day free trial on all plans with no credit card required. You can set up your team in under 3 minutes."
+    a: "Yes! We offer a full-featured free trial on all plans with no credit card required. You can set up your team in under 3 minutes."
   }
 ];

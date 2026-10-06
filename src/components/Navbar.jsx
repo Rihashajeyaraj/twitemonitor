@@ -181,7 +181,7 @@ export default function Navbar({ onOpenTrial, onOpenDemo, scrollToSection }) {
               onClick={() => { onOpenTrial(); setMobileMenuOpen(false); }}
               className="w-full py-2.5 rounded-xl bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 text-white font-semibold text-sm flex items-center justify-center gap-2 shadow-lg"
             >
-              Start 14-Day Free Trial
+              Start Free Trial
             </button>
           </div>
         </div>

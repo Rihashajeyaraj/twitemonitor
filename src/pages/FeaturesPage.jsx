@@ -184,12 +184,12 @@ export default function FeaturesPage({ onOpenTrial }) {
         {/* Bottom Call to Action */}
         <div className="p-8 rounded-3xl bg-white border border-slate-200 shadow-md text-center max-w-3xl mx-auto space-y-4">
           <h3 className="text-2xl font-bold text-slate-900">Ready to transform your workplace?</h3>
-          <p className="text-slate-600 text-sm">Start your 14-day free trial on Professional plan with full feature access.</p>
+          <p className="text-slate-600 text-sm">Start your free trial on Professional plan with full feature access.</p>
           <button
             onClick={onOpenTrial}
             className="px-7 py-3.5 rounded-xl gradient-bg-primary text-white font-bold text-sm shadow-md hover:scale-105 transition"
           >
-            Start 14-Day Free Trial →
+            Start Free Trial →
           </button>
         </div>
 

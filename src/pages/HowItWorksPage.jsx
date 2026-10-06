@@ -9,7 +9,7 @@ export default function HowItWorksPage({ onOpenTrial }) {
     {
       num: "01",
       title: "Create Your Organization",
-      desc: "Sign up for a 14-day free trial in 30 seconds. Name your company workspace and set up your admin credentials.",
+      desc: "Sign up for a free trial in 30 seconds. Name your company workspace and set up your admin credentials.",
       icon: Building2,
       color: "bg-blue-600 text-white"
     },
@@ -159,7 +159,7 @@ export default function HowItWorksPage({ onOpenTrial }) {
             onClick={onOpenTrial}
             className="px-8 py-3.5 rounded-xl bg-white text-blue-600 font-extrabold text-sm shadow-md hover:scale-105 transition"
           >
-            Start 14-Day Free Trial
+            Start Free Trial
           </button>
         </div>
 

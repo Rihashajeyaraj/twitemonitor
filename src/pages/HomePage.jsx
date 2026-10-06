@@ -200,7 +200,7 @@ export default function HomePage({ onOpenTrial, onOpenDemo }) {
   ];
 
   const steps = [
-    { num: "01", title: "Create Your Organization", desc: "Sign up for a 14-day free trial in 30 seconds. Name your company workspace and set up admin credentials.", icon: Building2 },
+    { num: "01", title: "Create Your Organization", desc: "Sign up for a free trial in 30 seconds. Name your company workspace and set up admin credentials.", icon: Building2 },
     { num: "02", title: "Add Employees & Teams", desc: "Import employee emails or upload CSV. Assign department roles (Engineering, Sales, QA, HR).", icon: UserPlus },
     { num: "03", title: "Install TwiteMonitor Agent", desc: "Deploy our lightweight 12 MB background monitoring agent via silent installer or direct link.", icon: Download },
     { num: "04", title: "Start Automatic Monitoring", desc: "The agent boots automatically on startup, tracking working hours, apps, sites, and screenshots.", icon: Play },
@@ -636,7 +636,7 @@ export default function HomePage({ onOpenTrial, onOpenDemo }) {
                 <p className="text-xs text-slate-400 font-normal mt-0.5">Detailed feature breakdown across Starter ₹99, Professional ₹199 and Enterprise</p>
               </div>
               <span className="px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 border border-blue-500/30 text-xs font-semibold">
-                All plans include 14-day trial
+                All plans include free trial
               </span>
             </div>
 

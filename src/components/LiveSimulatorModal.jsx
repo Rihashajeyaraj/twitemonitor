@@ -175,7 +175,7 @@ export default function LiveSimulatorModal({ isOpen, onClose, onOpenTrial }) {
             onClick={() => { onClose(); onOpenTrial(); }}
             className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold"
           >
-            Start Free 14-Day Trial Now
+            Start Free Trial Now
           </button>
         </div>
 
